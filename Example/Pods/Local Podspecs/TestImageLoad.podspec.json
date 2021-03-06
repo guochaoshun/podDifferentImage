@@ -1,0 +1,43 @@
+{
+  "name": "TestImageLoad",
+  "version": "0.1.0",
+  "summary": "TestImageLoad.",
+  "description": "TestImageLoad++++==,",
+  "homepage": "https://github.com/guochaoshun/TestImageLoad",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guochaoshun": "15210134184@163.com"
+  },
+  "source": {
+    "git": "https://github.com/guochaoshun/TestImageLoad.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "AllClass",
+      "source_files": "TestImageLoad/Classes/**/*"
+    },
+    {
+      "name": "AudioRes",
+      "resource_bundles": {
+        "AudioImageLoad": [
+          "TestImageLoad/Assets/Audio/*"
+        ]
+      }
+    },
+    {
+      "name": "KilaRes",
+      "resource_bundles": {
+        "KilaImageLoad": [
+          "TestImageLoad/Assets/Kila/*"
+        ]
+      }
+    }
+  ]
+}

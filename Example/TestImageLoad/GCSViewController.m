@@ -7,8 +7,21 @@
 //
 
 #import "GCSViewController.h"
+#import <TestImageLoad/UIView+ViewController.h>
+#import <TestImageLoad/NSObject+TagObject.h>
+#import <TestImageLoad/UILabel+SetText.h>
+#import <TestImageLoad/UILabel+SetText.h>
+
+#import <TestImageLoad/KilaTool.h>
+#import <TestImageLoad/AudioTool.h>
+
 
 @interface GCSViewController ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView2;
+
 
 @end
 
@@ -17,13 +30,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+    NSLog(@"%@",self.view.viewController);
+
+    self.view.tagObject = @(123);
+
+    NSLog(@"%@",self.view.tagObject);
+
+
+    self.imageView.image = [KilaTool returnImage];
+    self.imageView2.image = [AudioTool returnImage];
+
+
 }
 
 @end

@@ -5,6 +5,11 @@ platform :ios, '9.0'
 target 'TestImageLoad_Example' do
   pod 'TestImageLoad', :path => '../'
 
+#  pod 'TestImageLoad/AllClass', :path => '../'
+#  pod 'TestImageLoad/KilaRes', :path => '../'
+#  pod 'TestImageLoad/AudioRes', :path => '../'
+
+
   target 'TestImageLoad_Tests' do
     inherit! :search_paths
 

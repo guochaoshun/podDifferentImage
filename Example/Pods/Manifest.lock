@@ -1,0 +1,20 @@
+PODS:
+  - TestImageLoad/AllClass (0.1.0)
+  - TestImageLoad/AudioRes (0.1.0)
+  - TestImageLoad/KilaRes (0.1.0)
+
+DEPENDENCIES:
+  - TestImageLoad/AllClass (from `../`)
+  - TestImageLoad/AudioRes (from `../`)
+  - TestImageLoad/KilaRes (from `../`)
+
+EXTERNAL SOURCES:
+  TestImageLoad:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestImageLoad: de472244db186a1e2e6c878fdba3b7afbfc8381b
+
+PODFILE CHECKSUM: f6d1618e057be9db638a942cd98dd1fa25eb1552
+
+COCOAPODS: 1.10.1

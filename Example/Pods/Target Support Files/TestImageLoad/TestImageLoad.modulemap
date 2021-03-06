@@ -1,0 +1,6 @@
+framework module TestImageLoad {
+  umbrella header "TestImageLoad-umbrella.h"
+
+  export *
+  module * { export * }
+}
