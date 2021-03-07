@@ -22,6 +22,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView2;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView3;
 
 @end
 
@@ -41,7 +42,7 @@
 
     self.imageView.image = [KilaTool returnImage];
     self.imageView2.image = [AudioTool returnImage];
-
+    self.imageView3.image = [KilaTool yy_imageNamed:@"mx-gd.png"];
 
 }
 

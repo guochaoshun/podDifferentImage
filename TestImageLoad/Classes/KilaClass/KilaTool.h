@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface KilaTool : NSObject
 
 + (UIImage *)returnImage;
++ (UIImage *)yy_imageNamed:(NSString *)name;
 
 @end
 
