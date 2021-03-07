@@ -53,9 +53,6 @@
 
 }
 
-
-
-
 // 根据屏幕比例返回对应的数组
 // 2倍屏 @[2,3,1];  3倍屏 @[3,2,1]; 1倍屏 @[2,3,1], 这个应该已经没有了
 static NSArray *_NSBundlePreferredScales() {
@@ -74,7 +71,7 @@ static NSArray *_NSBundlePreferredScales() {
     return scales;
 }
 
-// 拼接后缀,
+// 拼接比例
 /**
  比如string是@"icon" ,
  scale 是3, return就是icon@3x
